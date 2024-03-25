@@ -7,6 +7,8 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config --global alias.ls "diff-tree --no-commit-id --name-only -r"
 git config --global alias.rl "reflog --date=iso"
 git config --global alias.aliases "! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /"
+git config --global alias.cpnc "cherry-pick --no-commit
+git-config --global alias.confs "branch -l *conf*"
 ```
 
 ### resources
